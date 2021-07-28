@@ -6,6 +6,10 @@ has_children: true
 
 # 連結
 
+## Lua
+
+* [Lua相關](https://samwhelp.github.io/note-about-nvim/read/link/lua.html)
+
 
 ## Vim
 
