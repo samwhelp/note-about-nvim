@@ -38,7 +38,7 @@ parent: 連結
 
 * [LunarVim](https://github.com/ChristianChiarulli/LunarVim)
 * [lv-config.lua](https://github.com/ChristianChiarulli/lvim/blob/master/lv-config.lua)
-* [Topic: neovim](https://www.chrisatmachine.com/neovim) /
+* [Topic: neovim](https://www.chrisatmachine.com/neovim)
 * [YouTube](https://www.youtube.com/c/ChrisAtMachine/videos)
 * [Which Key](https://www.chrisatmachine.com/Neovim/15-which-key/)
 
