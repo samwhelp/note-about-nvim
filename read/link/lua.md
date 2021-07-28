@@ -53,7 +53,7 @@ parent: 連結
 ## ayamir
 
 * GitHub / ayamir / [nvimdots](https://github.com/ayamir/nvimdots)
-* * [半現代化Neovim配置](https://zhuanlan.zhihu.com/p/382092667)
+* [半現代化Neovim配置](https://zhuanlan.zhihu.com/p/382092667)
 
 ## ttys3
 
