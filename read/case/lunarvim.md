@@ -85,7 +85,7 @@ curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
 
 | 按鍵 | 對應 | 說明 |
 | --- | --- | --- |
-| `<Bslash>a` | [:set list!<CR>](https://neovim.io/doc/user/options.html#'list') | 切換到上一個 Window |
+| `<Bslash>a` | [`:set list!<CR>`](https://neovim.io/doc/user/options.html#'list') | 切換到上一個 Window |
 
 
 
