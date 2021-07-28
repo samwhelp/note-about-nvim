@@ -14,11 +14,18 @@ parent: 實作案例
 * [YouTube](https://www.youtube.com/c/ChrisAtMachine/videos)
 * [Which Key](https://www.chrisatmachine.com/Neovim/15-which-key/)
 
-## lv-config
+
+## 安裝 LunarVim
+
+* LunarVim / [Install In One Command!](https://github.com/ChristianChiarulli/LunarVim#install-in-one-command)
+* [install.sh](https://github.com/ChristianChiarulli/LunarVim/blob/rolling/utils/installer/install.sh#L102)
+
+
+## lv-config.lua
 
 * [~/.config/lvim/lv-config.lua](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/lv-config.lua)
 
-### Install
+### 安裝 lv-config.lua
 
 Run
 
