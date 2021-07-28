@@ -15,10 +15,20 @@ parent: 實作案例
 * [Which Key](https://www.chrisatmachine.com/Neovim/15-which-key/)
 
 
-## 安裝 LunarVim
+## 如何安裝 LunarVim
+
+> 注意 Neovim 版本要 (0.5 以上)
 
 * LunarVim / [Install In One Command!](https://github.com/ChristianChiarulli/LunarVim#install-in-one-command)
 * [install.sh](https://github.com/ChristianChiarulli/LunarVim/blob/rolling/utils/installer/install.sh#L102)
+
+``` sh
+bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/lunarvim/master/utils/installer/install.sh)
+```
+
+## 如何安裝 LunarVim
+
+* [uninstall.sh](https://github.com/ChristianChiarulli/LunarVim/blob/rolling/utils/installer/uninstall.sh)
 
 
 ## lv-config.lua
