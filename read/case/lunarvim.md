@@ -30,6 +30,10 @@ curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
 
 ## Keybind
 
+* 設定的「leader」是「[空白鍵](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/lv-config.lua#L58)」
+* `Ctrl + w` 是原本 nvim 就有的 分割視窗操作
+* 我加了一些功能在 `\` 開頭的組合鍵
+
 ### 快速切換
 
 | 按鍵 | 對應 | 說明 |
@@ -42,7 +46,7 @@ curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
 | `Ctrl + l` | [:tabnext](https://neovim.io/doc/user/tabpage.html#:tabnext) | 切換到下一個 TabPage |
 
 
-### 視窗移動邊界(更改大小)
+### 分割視窗移動邊界(更改大小)
 
 | 按鍵 | 對應 |
 | --- | --- |
