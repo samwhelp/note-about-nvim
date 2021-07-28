@@ -82,9 +82,6 @@ parent: 連結
 * GitHub / [nvim-lua](https://github.com/nvim-lua)
 
 
-
-
-
 ## gruvbox
 
 * GitHub / npxbr / [gruvbox.nvim](https://github.com/npxbr/gruvbox.nvim)
@@ -94,4 +91,8 @@ parent: 連結
 
 ## chaneyzorn
 
-* chaneyzorn / dotfiles / [nvim](https://github.com/chaneyzorn/dotfiles/tree/master/nvim/.config/nvim)
+* GitHub / chaneyzorn / dotfiles / [nvim](https://github.com/chaneyzorn/dotfiles/tree/master/nvim/.config/nvim)
+
+## siduck76
+
+* GitHub / siduck76 / [nvim_confs](https://github.com/siduck76/dotfiles/tree/master/nvim_confs)
