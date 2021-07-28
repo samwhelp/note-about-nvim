@@ -13,7 +13,7 @@ parent: 實作案例
 * [Topic: neovim](https://www.chrisatmachine.com/neovim)
 * [YouTube](https://www.youtube.com/c/ChrisAtMachine/videos)
 * [Which Key](https://www.chrisatmachine.com/Neovim/15-which-key/)
-
+* [Lua 實作相關](https://samwhelp.github.io/note-about-nvim/read/link/lua.html)
 
 ## 如何安裝 LunarVim
 

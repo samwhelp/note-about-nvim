@@ -1,11 +1,11 @@
 ---
-title: lua
+title: Lua
 nav_order: 9010
 has_children: false
 parent: 連結
 ---
 
-# lua
+# Lua
 
 ## nvim-lua-guide
 
