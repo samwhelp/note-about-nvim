@@ -30,6 +30,42 @@ curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
 
 ## Keybind
 
+### 快速切換
+
+| 按鍵 | 對應 | 說明 |
+| --- | --- | --- |
+| `<Backspace>` | [C-w W](https://neovim.io/doc/user/windows.html#CTRL-W_W) | 切換到上一個 Window |
+| `<Tab>` | [C-w w](https://neovim.io/doc/user/windows.html#CTRL-W_w) | 切換到下一個 Window |
+| `Ctrl + k` | [:bprevious](https://neovim.io/doc/user/windows.html#:bprevious) | 切換到上一個 Buffer |
+| `Ctrl + j` | [:bnext](https://neovim.io/doc/user/windows.html#:bnext) | 切換到下一個 Buffer |
+| `Ctrl + h` | [:tabprevious](https://neovim.io/doc/user/tabpage.html#:tabprevious) | 切換到上一個 TabPage |
+| `Ctrl + l` | [:tabnext](https://neovim.io/doc/user/tabpage.html#:tabnext) | 切換到下一個 TabPage |
+
+
+### 視窗移動邊界(更改大小)
+
+| 按鍵 | 對應 |
+| --- | --- |
+| `Shift + Down` | [&lt;C-w&gt;-](https://neovim.io/doc/user/windows.html#CTRL-W_-) |
+| `Shift + Up` | [&lt;C-w&gt;+](https://neovim.io/doc/user/windows.html#CTRL-W_+) |
+| `Shift + Left` | [&lt;C-w&gt;<](https://neovim.io/doc/user/windows.html#CTRL-W_<) |
+| `Shift + Right` | [&lt;C-w&gt;>](https://neovim.io/doc/user/windows.html#CTRL-W_>) |
+
+
+### 移動單行
+
+| 按鍵 | 對應 | 說明 | 注意事項 |
+| --- | --- | --- | --- |
+| `Shift + PageUp` | [:m-2](https://neovim.io/doc/user/change.html#:m)&lt;CR&gt; | Move line up. | Work on Normal Mode and Insert Mode |
+| `Shift + PageDown` | [:m+](https://neovim.io/doc/user/change.html#:m)&lt;CR&gt; | Move line Down. | Work on Normal Mode and Insert Mode |
+
+
+### 切換顯示特別字元
+
+| 按鍵 | 對應 | 說明 |
+| --- | --- | --- |
+| `<Bslash>a` | [:set list!<CR>](https://neovim.io/doc/user/options.html#'list') | 切換到上一個 Window |
+
 
 
 ## lv-config / example
