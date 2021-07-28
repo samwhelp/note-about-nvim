@@ -13,6 +13,13 @@
 
 * [個人筆記](https://samwhelp.github.io/book/)
 
+## Lua
+
+### 實做案例
+
+| 實做案例 |
+| --- |
+| [LunarVim](https://samwhelp.github.io/note-about-nvim/read/case/lunarvim.html) ([GitHub](https://github.com/ChristianChiarulli/LunarVim)) |
 
 ## 相關討論
 
