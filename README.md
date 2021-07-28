@@ -23,5 +23,5 @@
 
 | 工具 | 功能 |
 | --- | --- |
-| [nvimrc-ctrl](https://samwhelp.github.io/note-about-vim/read/project/vimrc-profile/nvimrc-ctrl) ([GitHub](https://github.com/samwhelp/note-about-vim/tree/gh-pages/_demo/project/vimrc-profile/nvimrc-ctrl)) | 輔助切換 nvimrc |
+| [nvimrc-ctrl](https://samwhelp.github.io/note-about-vim/read/project/vimrc-profile/nvimrc-ctrl) ([GitHub](https://github.com/samwhelp/note-about-vim/tree/gh-pages/_demo/project/vimrc-profile/nvimrc-ctrl)) | 輔助切換 nvimrc (~/.config/nvim) |
 | [xfteditor](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/) | 輔助「檔案管理器」，右鍵開啟檔案到「xfce-terminal」的「新頁籤(Tab)」 |
