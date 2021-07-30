@@ -85,7 +85,14 @@ curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
 
 | 按鍵 | 對應 | 說明 |
 | --- | --- | --- |
-| `<Bslash>a` | [`:set list!<CR>`](https://neovim.io/doc/user/options.html#'list') | 切換顯示特別字元 |
+| `\ + a` | [`:set list!<CR>`](https://neovim.io/doc/user/options.html#'list') | 切換顯示特別字元 |
+
+
+### 複製選取文字到剪貼簿
+
+| 按鍵 | 對應 | 說明 |
+| --- | --- | --- |
+| `Shift + Tab` | [`"+y`](https://vimhelp.org/gui_x11.txt.html#quoteplus) | 複製選取文字到剪貼簿 |
 
 
 
