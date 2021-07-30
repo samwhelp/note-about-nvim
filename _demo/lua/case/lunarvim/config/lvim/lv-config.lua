@@ -50,6 +50,7 @@ vnoremap <S-Tab> "+y
 "vnoremap <C-c> "+y
 "vmap <S-Tab> "+y
 "vmap <C-c> "+y
+"vnoremap <RightMouse> "+y
 
 
 " Better Whitespace
