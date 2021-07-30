@@ -44,7 +44,15 @@ set list
 nnoremap <Bslash>a :set list!<CR>
 
 
+" ## Copy To Clipboard
+set mouse=a
+vnoremap <S-Tab> "+y
+"vnoremap <C-c> "+y
+"vmap <S-Tab> "+y
+"vmap <C-c> "+y
 
+
+" Better Whitespace
 let g:better_whitespace_enabled=1
 let g:strip_whitespace_on_save=1
 let g:strip_whitespace_confirm=0
