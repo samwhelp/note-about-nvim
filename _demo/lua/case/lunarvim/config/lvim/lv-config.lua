@@ -20,6 +20,10 @@ vim.opt.wrap = true
 --vim.opt.sidescrolloff = 15
 
 vim.cmd [[
+
+" ## For Leave
+set confirm
+
 " ## WildMenu
 set wildcharm=<C-o>
 
