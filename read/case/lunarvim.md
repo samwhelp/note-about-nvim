@@ -53,7 +53,7 @@ curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
 
 ### 快速切換
 
-| 按鍵 | 對應 | 說明 |
+| 按鍵組合 | 對應 | 說明 |
 | --- | --- | --- |
 | `<Backspace>` | [C-w W](https://neovim.io/doc/user/windows.html#CTRL-W_W) | 切換到上一個 Window |
 | `<Tab>` | [C-w w](https://neovim.io/doc/user/windows.html#CTRL-W_w) | 切換到下一個 Window |
@@ -65,7 +65,7 @@ curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
 
 ### 分割視窗移動邊界(更改大小)
 
-| 按鍵 | 對應 |
+| 按鍵組合 | 對應 |
 | --- | --- |
 | `Shift + Down` | [&lt;C-w&gt;-](https://neovim.io/doc/user/windows.html#CTRL-W_-) |
 | `Shift + Up` | [&lt;C-w&gt;+](https://neovim.io/doc/user/windows.html#CTRL-W_+) |
@@ -75,7 +75,7 @@ curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
 
 ### 移動單行
 
-| 按鍵 | 對應 | 說明 | 注意事項 |
+| 按鍵組合 | 對應 | 說明 | 注意事項 |
 | --- | --- | --- | --- |
 | `Shift + PageUp` | [:m-2](https://neovim.io/doc/user/change.html#:m)&lt;CR&gt; | Move line up. | Work on Normal Mode and Insert Mode |
 | `Shift + PageDown` | [:m+](https://neovim.io/doc/user/change.html#:m)&lt;CR&gt; | Move line Down. | Work on Normal Mode and Insert Mode |
@@ -83,17 +83,35 @@ curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
 
 ### 切換顯示特別字元
 
-| 按鍵 | 對應 | 說明 |
+| 按鍵組合 | 對應 | 說明 |
 | --- | --- | --- |
 | `\ + a` | [`:set list!<CR>`](https://neovim.io/doc/user/options.html#'list') | 切換顯示特別字元 |
 
 
 ### 複製選取文字到剪貼簿
 
-| 按鍵 | 對應 | 說明 |
+| 按鍵組合 | 對應 | 說明 |
 | --- | --- | --- |
 | `Shift + Tab` | [`"+y`](https://vimhelp.org/gui_x11.txt.html#quoteplus) | 複製選取文字到剪貼簿 |
 
+* [Vim: Cut, Copy and Paste to and from the system clipboard](https://francopasut.medium.com/vim-cut-copy-and-paste-to-and-from-the-system-clipboard-e11da66ca95c)
+
+| 按鍵組合 | 功能 | 說明 |
+| --- | --- | --- |
+| `"+x` | Cut | 剪下選取文字到剪貼簿 |
+| `"+y` | Copy | 複製選取文字到剪貼簿 |
+| `"+gP` | Paste | 將剪貼簿的內容貼上目前游標所在位置 |
+
+**在 gVim 的組合鍵**
+
+> 在 有些 Terminal 也適用下面這幾個組合鍵
+> 在 atom, mousepad 也適用下面這幾個組合鍵
+
+| 按鍵組合 | 說明 |
+| --- | --- |
+| `Shift + Delete` | Cut | 剪下選取文字到剪貼簿 |
+| `Ctrl + Insert` | Copy | 複製選取文字到剪貼簿 |
+| `Shift + Insert` | Paste | 將剪貼簿的內容貼上目前游標所在位置 |
 
 
 ## lv-config / example
