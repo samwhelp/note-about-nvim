@@ -105,6 +105,7 @@ curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
 **在 gVim 的組合鍵**
 
 > 在 有些 Terminal 也適用下面這幾個組合鍵
+
 > 在 atom, mousepad 也適用下面這幾個組合鍵
 
 | 按鍵組合 | 說明 |
