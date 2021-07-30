@@ -95,6 +95,8 @@ curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
 | `Shift + Tab` | [`"+y`](https://vimhelp.org/gui_x11.txt.html#quoteplus) | 複製選取文字到剪貼簿 |
 
 * [Vim: Cut, Copy and Paste to and from the system clipboard](https://francopasut.medium.com/vim-cut-copy-and-paste-to-and-from-the-system-clipboard-e11da66ca95c)
+* [Vim: Cut, Copy and Paste to and from the system clipboard](https://francopasut-en.blogspot.com/2019/08/vim-cut-copy-and-paste-to-and-from.html)
+
 
 | 按鍵組合 | 功能 | 說明 |
 | --- | --- | --- |
