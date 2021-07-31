@@ -26,7 +26,7 @@ parent: 實作案例
 bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/lunarvim/master/utils/installer/install.sh)
 ```
 
-## 如何安裝 LunarVim
+## 如何移除 LunarVim
 
 * [uninstall.sh](https://github.com/ChristianChiarulli/LunarVim/blob/rolling/utils/installer/uninstall.sh)
 
