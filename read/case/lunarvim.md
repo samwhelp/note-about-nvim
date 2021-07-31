@@ -15,6 +15,11 @@ parent: 實作案例
 * [Which Key](https://www.chrisatmachine.com/Neovim/15-which-key/)
 * [Lua 實作相關](https://samwhelp.github.io/note-about-nvim/read/link/lua.html)
 
+## 輔助工具
+
+* xfteditor / [xftlvim](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/xftlvim.html)
+
+
 ## 如何安裝 LunarVim
 
 > 注意 Neovim 版本要 (0.5 以上)
