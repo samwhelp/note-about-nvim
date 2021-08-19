@@ -96,3 +96,4 @@ parent: 連結
 ## siduck76
 
 * GitHub / siduck76 / [nvim_confs](https://github.com/siduck76/dotfiles/tree/master/nvim_confs)
+* GitHub / [NvChad](https://github.com/NvChad/NvChad)
