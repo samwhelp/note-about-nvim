@@ -64,7 +64,7 @@ curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
 * LunarVim Docs / [#
 Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 
-* 設定的「leader」是「[空白鍵](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/lv-config.lua#L58)」
+* 設定的「leader」是「[空白鍵](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua#L58)」
 * `Ctrl + w` 是原本 nvim 就有的 分割視窗操作
 * 我加了一些功能在 `\` 開頭的組合鍵
 
@@ -74,11 +74,17 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 | --- | --- | --- |
 | `<Backspace>` | [C-w W](https://neovim.io/doc/user/windows.html#CTRL-W_W) | 切換到上一個 Window |
 | `<Tab>` | [C-w w](https://neovim.io/doc/user/windows.html#CTRL-W_w) | 切換到下一個 Window |
+
+
+
+| 按鍵組合 | 對應 | 說明 |
+| --- | --- | --- |
 | `Ctrl + k` | [:bprevious](https://neovim.io/doc/user/windows.html#:bprevious) | 切換到上一個 Buffer |
 | `Ctrl + j` | [:bnext](https://neovim.io/doc/user/windows.html#:bnext) | 切換到下一個 Buffer |
 | `Ctrl + h` | [:tabprevious](https://neovim.io/doc/user/tabpage.html#:tabprevious) | 切換到上一個 TabPage |
 | `Ctrl + l` | [:tabnext](https://neovim.io/doc/user/tabpage.html#:tabnext) | 切換到下一個 TabPage |
 
+> 目前已經註解掉
 
 ### 分割視窗移動邊界(更改大小)
 

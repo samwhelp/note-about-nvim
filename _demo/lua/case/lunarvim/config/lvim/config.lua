@@ -8,15 +8,111 @@ an executable
 ]]
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 
+--------------------------------------------------------------------------------
+-- Head: My
+--
+
+vim.opt.expandtab = false
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+vim.opt.wrap = true
+--vim.opt.scrolloff = 5
+--vim.opt.sidescrolloff = 15
+
+vim.cmd [[
+
+" ## For Leave
+set confirm
+
+" ## WildMenu
+set wildcharm=<C-o>
+
+cnoremap <C-y> <Up>
+
+if has('nvim')
+  cnoremap <C-l> <Down><BS><C-o>
+else
+  cnoremap <C-l> <Down>
+endif
+
+
+" ## Move Line
+nnoremap <S-PageUp> :m-2<CR>
+nnoremap <S-PageDown> :m+<CR>
+inoremap <S-PageUp> <Esc>:m-2<CR>i
+inoremap <S-PageDown> <Esc>:m+<CR>i
+
+" ## Show Invisibles
+"set listchars=tab:→\ ,trail:·,extends:↷,precedes:↶
+set listchars=tab:»\ ,nbsp:+,trail:·,extends:→,precedes:←
+set list
+nnoremap <Bslash>a :set list!<CR>
+
+
+" ## Copy To Clipboard
+set mouse=a
+vnoremap <S-Tab> "+y
+"vnoremap <C-c> "+y
+"vmap <S-Tab> "+y
+"vmap <C-c> "+y
+"vnoremap <RightMouse> "+y
+
+
+" Better Whitespace
+let g:better_whitespace_enabled=1
+let g:strip_whitespace_on_save=1
+let g:strip_whitespace_confirm=0
+let g:better_whitespace_ctermcolor=132
+
+
+]]
+
+--
+-- Tail: My
+--------------------------------------------------------------------------------
+
+
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save = true
-lvim.colorscheme = "onedarker"
+--lvim.colorscheme = "onedarker"
+lvim.colorscheme = "gruvbox"
 
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
+
+
+--------------------------------------------------------------------------------
+-- Head: My
+--
+
+-- ## Save
+lvim.keys.normal_mode['<C-s>'] = ':w<CR>'
+-- ## Quick Switch
+--lvim.keys.normal_mode['<C-k>'] = ':bprevious<CR>'
+--lvim.keys.normal_mode['<C-j>'] = ':bnext<CR>'
+--lvim.keys.normal_mode['<C-h>'] = ':tabprevious<CR>'
+--lvim.keys.normal_mode['<C-l>'] = ':tabnext<CR>'
+lvim.keys.normal_mode['<Tab>'] = '<C-w>w'
+lvim.keys.normal_mode['<Bs>'] = '<C-w>W'
+-- ## Resize Window
+lvim.keys.normal_mode['<S-Up>'] = '<C-w>+'
+lvim.keys.normal_mode['<S-Down>'] = '<C-w>-'
+lvim.keys.normal_mode['<S-Left>'] = '<C-w><'
+lvim.keys.normal_mode['<S-Right>'] = '<C-w>>'
+-- ## Bufer Delete
+lvim.keys.normal_mode['<Bslash>q'] = ':bdelete<CR>'
+lvim.keys.normal_mode['<Bslash>z'] = ':bdelete!<CR>'
+lvim.keys.normal_mode['<Bslash>x'] = ':%bdelete<CR>'
+lvim.keys.normal_mode['<Bslash>c'] = ':%bdelete!<CR>'
+
+--
+-- Tail: My
+--------------------------------------------------------------------------------
+
+
 -- add your own keymapping
-lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
+-- lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 -- unmap a default keymapping
 -- lvim.keys.normal_mode["<C-Up>"] = ""
 -- edit a default keymapping
@@ -155,6 +251,48 @@ lvim.builtin.treesitter.highlight.enabled = true
 --       cmd = "TroubleToggle",
 --     },
 -- }
+
+
+--------------------------------------------------------------------------------
+-- Head: My
+--
+
+lvim.plugins = {
+	-- ## https://github.com/ntpeters/vim-better-whitespace
+	{
+		"ntpeters/vim-better-whitespace",
+		config = function()
+--			vim.g.better_whitespace_enabled=1
+--			vim.g.strip_whitespace_on_save=1
+--			vim.g.strip_whitespace_confirm=0
+--			vim.g.better_whitespace_ctermcolor=132
+		end
+	},
+	-- ## ColorScheme
+	-- {
+	-- 	'dracula/vim',
+	-- 	as = 'dracula'
+	-- },
+	-- {
+	-- 	'morhetz/gruvbox'
+	-- },
+		{"npxbr/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
+	-- {
+	-- 	'joshdick/onedark.vim'
+	-- },
+	-- {
+	-- 	'liuchengxu/space-vim-theme'
+	-- },
+	-- {
+	-- 	'sickill/vim-monokai'
+	-- }
+
+}
+
+--
+-- Tail: My
+--------------------------------------------------------------------------------
+
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- lvim.autocommands.custom_groups = {
