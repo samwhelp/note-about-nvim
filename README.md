@@ -19,6 +19,7 @@
 
 | 實做案例 |
 | --- |
+| [lvim](https://samwhelp.github.io/note-about-nvim/read/case/lvim-tech.html) ([GitHub](https://github.com/lvim-tech/lvim)) |
 | [LunarVim](https://samwhelp.github.io/note-about-nvim/read/case/lunarvim.html) ([GitHub](https://github.com/ChristianChiarulli/LunarVim)) |
 
 ## 相關討論
