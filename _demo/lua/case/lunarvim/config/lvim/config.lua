@@ -76,6 +76,7 @@ let g:better_whitespace_ctermcolor=132
 lvim.log.level = "warn"
 lvim.format_on_save = true
 --lvim.colorscheme = "onedarker"
+--lvim.colorscheme = "lvim"
 lvim.colorscheme = "gruvbox"
 
 -- keymappings [view all the defaults by pressing <leader>Lk]
@@ -276,7 +277,7 @@ lvim.plugins = {
 	-- {
 	-- 	'morhetz/gruvbox'
 	-- },
-		{"npxbr/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
+
 	-- {
 	-- 	'joshdick/onedark.vim'
 	-- },
@@ -286,7 +287,10 @@ lvim.plugins = {
 	-- {
 	-- 	'sickill/vim-monokai'
 	-- }
+	{'lvim-tech/lvim-colorscheme'},
 
+
+	{'npxbr/gruvbox.nvim', requires = {'rktjmp/lush.nvim'}}
 }
 
 --
