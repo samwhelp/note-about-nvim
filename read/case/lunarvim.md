@@ -1,6 +1,6 @@
 ---
 title: LunarVim
-nav_order: 7020
+nav_order: 7010
 has_children: false
 parent: 實作案例
 ---
@@ -60,6 +60,9 @@ curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
 
 
 ## Keybind
+
+* LunarVim Docs / [#
+Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 
 * 設定的「leader」是「[空白鍵](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/lv-config.lua#L58)」
 * `Ctrl + w` 是原本 nvim 就有的 分割視窗操作
