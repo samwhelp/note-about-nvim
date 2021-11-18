@@ -129,4 +129,4 @@ noexpandtab = true,
 | Help | Code |
 | --- | --- |
 | [~/.config/nvim/help/lvim_bindings_normal_mode.md](https://raw.githubusercontent.com/lvim-tech/lvim/production/help/lvim_bindings_normal_mode.md) | [~/.config/nvim/lua/configs/global/keymaps.lua](https://github.com/lvim-tech/lvim/blob/production/lua/configs/global/keymaps.lua#L3) |
-| [~/.config/nvim/help/lvim_bindings_visual_mode.md](https://github.com/lvim-tech/lvim/blob/production/help/lvim_bindings_visual_mode.md) | [~/.config/nvim/lua/configs/global/keymaps.lua](https://github.com/lvim-tech/lvim/blob/production/lua/configs/global/keymaps.lua#L65) |
+| [~/.config/nvim/help/lvim_bindings_visual_mode.md](https://raw.githubusercontent.com/lvim-tech/lvim/production/help/lvim_bindings_visual_mode.md) | [~/.config/nvim/lua/configs/global/keymaps.lua](https://github.com/lvim-tech/lvim/blob/production/lua/configs/global/keymaps.lua#L65) |
