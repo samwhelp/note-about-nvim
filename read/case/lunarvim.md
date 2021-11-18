@@ -24,16 +24,25 @@ parent: 實作案例
 
 > 注意 Neovim 版本要 (0.5 以上)
 
-* LunarVim / [Install In One Command!](https://github.com/ChristianChiarulli/LunarVim#install-in-one-command)
-* [install.sh](https://github.com/ChristianChiarulli/LunarVim/blob/rolling/utils/installer/install.sh#L102)
+* LunarVim / [Install In One Command!](https://github.com/LunarVim/LunarVim#install-in-one-command)
+* LunarVim Docs / [Installation](https://www.lunarvim.org/01-installing.html#stable)
+* [install.sh](https://github.com/LunarVim/LunarVim/blob/rolling/utils/installer/install.sh#L84)
 
 ``` sh
-bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/lunarvim/master/utils/installer/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 ```
+
+### Path
+
+* ~/.local/bin/lvim
+* ~/.local/share/applications/lvim.desktop
+* ~/.config/lvim
+* ~/.local/share/lunarvim
 
 ## 如何移除 LunarVim
 
-* [uninstall.sh](https://github.com/ChristianChiarulli/LunarVim/blob/rolling/utils/installer/uninstall.sh)
+* LunarVim Docs / [Uninstall](https://www.lunarvim.org/01-installing.html#uninstall)
+* [uninstall.sh](https://github.com/LunarVim/LunarVim/blob/rolling/utils/installer/uninstall.sh)
 
 
 ## lv-config.lua
