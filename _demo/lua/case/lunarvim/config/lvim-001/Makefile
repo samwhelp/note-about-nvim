@@ -15,9 +15,9 @@ help:
 
 
 install:
-	install -Dm644 ./config.lua ~/.config/lvim/config.lua
+	install -Dm644 ./lv-config.lua ~/.config/lvim/lv-config.lua
 .PHONY: install
 
 remove:
-	rm -f ~/.config/lvim/config.lua
+	rm -f ~/.config/lvim/lv-config.lua
 .PHONY: remove
