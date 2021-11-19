@@ -80,6 +80,7 @@ parent: 連結
 ## nvim-lua
 
 * GitHub / [nvim-lua](https://github.com/nvim-lua)
+* [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
 
 ## gruvbox
@@ -93,7 +94,15 @@ parent: 連結
 
 * GitHub / chaneyzorn / dotfiles / [nvim](https://github.com/chaneyzorn/dotfiles/tree/master/nvim/.config/nvim)
 
-## siduck76
+
+## NvChad
 
 * GitHub / siduck76 / [nvim_confs](https://github.com/siduck76/dotfiles/tree/master/nvim_confs)
 * GitHub / [NvChad](https://github.com/NvChad/NvChad)
+
+
+## VapourNvim
+
+* [VapourNvim](https://github.com/VapourNvim/VapourNvim)
+* [nfs](https://github.com/hackorum/nfs)
+* [YouTube](https://www.youtube.com/channel/UCIfWXqdiEvM8nBFAA594Kjw/videos)
