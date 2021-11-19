@@ -9,11 +9,12 @@ parent: 實作案例
 
 ## Link
 
-* [LunarVim](https://github.com/ChristianChiarulli/LunarVim)
-* [Topic: neovim](https://www.chrisatmachine.com/neovim)
+* [LunarVim](https://github.com/LunarVim/LunarVim)
+* [lvim](https://github.com/ChristianChiarulli/lvim)
 * [YouTube](https://www.youtube.com/c/ChrisAtMachine/videos)
+* [Topic: neovim](https://www.chrisatmachine.com/neovim)
 * [Which Key](https://www.chrisatmachine.com/Neovim/15-which-key/)
-* [Lua 實作相關](https://samwhelp.github.io/note-about-nvim/read/link/lua.html)
+* [Lua 實作相關連結](https://samwhelp.github.io/note-about-nvim/read/link/lua.html)
 
 ## 輔助工具
 
@@ -45,17 +46,22 @@ bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/
 * [uninstall.sh](https://github.com/LunarVim/LunarVim/blob/rolling/utils/installer/uninstall.sh)
 
 
-## lv-config.lua
+## config.lua
 
-* [~/.config/lvim/lv-config.lua](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/lv-config.lua)
+* [~/.config/lvim/config.lua](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua)
 
-### 安裝 lv-config.lua
+## config.lua / example
+
+* [https://github.com/ChristianChiarulli/lvim/blob/master/config.lua](https://github.com/ChristianChiarulli/lvim/blob/master/config.lua)
+* [https://github.com/LunarVim/LunarVim/blob/rolling/utils/installer/config.example.lua](https://github.com/LunarVim/LunarVim/blob/rolling/utils/installer/config.example.lua)
+
+### 安裝 config.lua
 
 Run
 
 ``` sh
-curl -fLo "$HOME/.config/lvim/lv-config.lua" --create-dirs \
-	'https://raw.githubusercontent.com/samwhelp/note-about-nvim/gh-pages/_demo/lua/case/lunarvim/config/lvim/lv-config.lua'
+curl -fLo "$HOME/.config/lvim/config.lua" --create-dirs \
+	'https://raw.githubusercontent.com/samwhelp/note-about-nvim/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua'
 ```
 
 
@@ -138,10 +144,3 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 | `Shift + Delete` | Cut | 剪下選取文字到剪貼簿 |
 | `Ctrl + Insert` | Copy | 複製選取文字到剪貼簿 |
 | `Shift + Insert` | Paste | 將剪貼簿的內容貼上目前游標所在位置 |
-
-
-## lv-config / example
-
-* [https://github.com/ChristianChiarulli/LunarVim/blob/rolling/utils/installer/lv-config.example-no-ts.lua](https://github.com/ChristianChiarulli/LunarVim/blob/rolling/utils/installer/lv-config.example-no-ts.lua)
-* [https://github.com/ChristianChiarulli/LunarVim/blob/rolling/utils/installer/lv-config.example.lua](https://github.com/ChristianChiarulli/LunarVim/blob/rolling/utils/installer/lv-config.example.lua)
-* [https://github.com/ChristianChiarulli/lvim/blob/master/lv-config.lua](https://github.com/ChristianChiarulli/lvim/blob/master/lv-config.lua)
