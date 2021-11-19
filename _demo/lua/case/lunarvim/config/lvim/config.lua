@@ -94,6 +94,10 @@ lvim.keys.normal_mode['<C-s>'] = ':w<CR>'
 --lvim.keys.normal_mode['<C-j>'] = ':bnext<CR>'
 --lvim.keys.normal_mode['<C-h>'] = ':tabprevious<CR>'
 --lvim.keys.normal_mode['<C-l>'] = ':tabnext<CR>'
+-- ## Switch Tab
+lvim.keys.normal_mode['<S-Home>'] = ':tabprevious<CR>'
+lvim.keys.normal_mode['<S-End>'] = ':tabnext<CR>'
+-- ## Switch Window
 lvim.keys.normal_mode['<Tab>'] = '<C-w>w'
 lvim.keys.normal_mode['<Bs>'] = '<C-w>W'
 -- ## Resize Window
