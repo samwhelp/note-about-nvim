@@ -16,11 +16,14 @@ parent: 連結
 ## 文章
 
 * [From init.vim to init.lua](https://teukka.tech/luanvim.html) ([GitHub](https://github.com/jamestthompson3/vimConfig))
+* [Everything you need to know to configure neovim using lua](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/) ([md](https://github.com/VonHeikemen/devlog/blob/master/content/tools/configuring-neovim-using-lua.md)) ([html](https://github.com/VonHeikemen/vonheikemen.github.io/tree/master/devlog/tools/configuring-neovim-using-lua))
+* [Neovim: using vim-plug in lua](https://dev.to/vonheikemen/neovim-using-vim-plug-in-lua-3oom)
 * [半現代化Neovim配置](https://zhuanlan.zhihu.com/p/382092667)
 * [2021年vim配置](https://zhuanlan.zhihu.com/p/348257414)
 * [vim粘貼模式快捷方式](http://xstarcd.github.io/wiki/vim/vim-copy-paste.html)
 * [https://github.com/ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim)
 * [https://github.com/RishabhRD/nvim-cheat.sh](https://github.com/RishabhRD/nvim-cheat.sh)
+
 
 ## packer.nvim
 
