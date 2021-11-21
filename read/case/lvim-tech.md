@@ -80,7 +80,7 @@ noexpandtab = true,
 
 這個就如同原本的「[set noexpandtab](https://github.com/samwhelp/tool-svim-core/blob/master/plugin/Svim.vim#L233)」。
 
-這個程式碼實做，可以參考「[funcs.options_set](https://github.com/lvim-tech/lvim/blob/production/lua/core/funcs.lua#L46)」這個「function」。
+這個程式碼實作，可以參考「[funcs.options_set](https://github.com/lvim-tech/lvim/blob/production/lua/core/funcs.lua#L46)」這個「function」。
 
 ### Keybind / CtrlSpace
 
