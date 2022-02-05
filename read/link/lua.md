@@ -109,3 +109,20 @@ parent: 連結
 * [VapourNvim](https://github.com/VapourNvim/VapourNvim)
 * [nfs](https://github.com/hackorum/nfs)
 * [YouTube](https://www.youtube.com/channel/UCIfWXqdiEvM8nBFAA594Kjw/videos)
+
+
+## CosmicNvim
+
+* [CosmicNvim](https://github.com/CosmicNvim/CosmicNvim)
+
+## AstroVim
+
+* [AstroVim](https://github.com/kabinspace/AstroVim)
+
+## alpha-nvim
+
+* [alpha-nvim](https://github.com/goolord/alpha-nvim)
+
+## nv-ide
+
+* [nv-ide](https://github.com/crivotz/nv-ide)
