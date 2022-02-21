@@ -8,8 +8,11 @@ an executable
 ]]
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 
+
+
+
 --------------------------------------------------------------------------------
--- Head: My
+--- Head: My / Option
 --
 
 vim.opt.expandtab = false
@@ -20,35 +23,26 @@ vim.opt.wrap = true
 --vim.opt.sidescrolloff = 15
 
 vim.cmd [[
-
 " ## For Leave
 set confirm
-
 " ## WildMenu
 set wildcharm=<C-o>
-
 cnoremap <C-y> <Up>
-
 if has('nvim')
   cnoremap <C-l> <Down><BS><C-o>
 else
   cnoremap <C-l> <Down>
 endif
-
-
 " ## Move Line
 nnoremap <S-PageUp> :m-2<CR>
 nnoremap <S-PageDown> :m+<CR>
 inoremap <S-PageUp> <Esc>:m-2<CR>i
 inoremap <S-PageDown> <Esc>:m+<CR>i
-
 " ## Show Invisibles
 "set listchars=tab:→\ ,trail:·,extends:↷,precedes:↶
 set listchars=tab:»\ ,nbsp:+,trail:·,extends:→,precedes:←
 set list
 nnoremap <Bslash>a :set list!<CR>
-
-
 " ## Copy To Clipboard
 set mouse=a
 vnoremap <S-Tab> "+y
@@ -56,35 +50,56 @@ vnoremap <S-Tab> "+y
 "vmap <S-Tab> "+y
 "vmap <C-c> "+y
 "vnoremap <RightMouse> "+y
-
-
 " Better Whitespace
 let g:better_whitespace_enabled=1
 let g:strip_whitespace_on_save=1
 let g:strip_whitespace_confirm=0
 let g:better_whitespace_ctermcolor=132
-
-
 ]]
 
 --
--- Tail: My
+--- Tail: My / Option
 --------------------------------------------------------------------------------
+
+
 
 
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save = true
 --lvim.colorscheme = "onedarker"
+
+
+--------------------------------------------------------------------------------
+--- Head: My / ColorScheme
+--
+
+--lvim.colorscheme = "dracula"
+--lvim.colorscheme = "monokai"
+--lvim.colorscheme = "onedark"
+--lvim.colorscheme = "space-vim-dark"
+--lvim.colorscheme = "space_vim_theme"
 --lvim.colorscheme = "lvim"
+--lvim.colorscheme = "sonokai"
+--lvim.colorscheme = "edge"
+--lvim.colorscheme = "everforest"
+--lvim.colorscheme = "gruvbox-material"
 lvim.colorscheme = "gruvbox"
+
+--
+--- Tail: My / ColorScheme
+--------------------------------------------------------------------------------
+
+
 
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
 
 
+
+
 --------------------------------------------------------------------------------
--- Head: My
+-- Head: My / Keybind
 --
 
 -- ## Save
@@ -112,14 +127,16 @@ lvim.keys.normal_mode['<Bslash>x'] = ':%bdelete<CR>'
 lvim.keys.normal_mode['<Bslash>c'] = ':%bdelete!<CR>'
 
 --
--- Tail: My
+-- Tail: My / Keybind
 --------------------------------------------------------------------------------
 
 
+
+
 -- add your own keymapping
--- lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
+lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 -- unmap a default keymapping
--- lvim.keys.normal_mode["<C-Up>"] = ""
+-- lvim.keys.normal_mode["<C-Up>"] = false
 -- edit a default keymapping
 -- lvim.keys.normal_mode["<C-q>"] = ":q<cr>"
 
@@ -156,6 +173,7 @@ lvim.keys.normal_mode['<Bslash>c'] = ':%bdelete!<CR>'
 -- TODO: User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.dashboard.active = true
+lvim.builtin.notify.active = true
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
 lvim.builtin.nvimtree.show_icons.git = 0
@@ -169,6 +187,7 @@ lvim.builtin.treesitter.ensure_installed = {
   "lua",
   "python",
   "typescript",
+  "tsx",
   "css",
   "rust",
   "java",
@@ -191,8 +210,8 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- local opts = {} -- check the lspconfig documentation for a list of all possible options
 -- require("lvim.lsp.manager").setup("pylsp", opts)
 
--- you can set a custom on_attach function that will be used for all the language servers
--- See <https://github.com/neovim/nvim-lspconfig#keybindings-and-completion>
+-- -- you can set a custom on_attach function that will be used for all the language servers
+-- -- See <https://github.com/neovim/nvim-lspconfig#keybindings-and-completion>
 -- lvim.lsp.on_attach_callback = function(client, bufnr)
 --   local function buf_set_option(...)
 --     vim.api.nvim_buf_set_option(bufnr, ...)
@@ -200,32 +219,18 @@ lvim.builtin.treesitter.highlight.enabled = true
 --   --Enable completion triggered by <c-x><c-o>
 --   buf_set_option("omnifunc", "v:lua.vim.lsp.omnifunc")
 -- end
--- you can overwrite the null_ls setup table (useful for setting the root_dir function)
--- lvim.lsp.null_ls.setup = {
---   root_dir = require("lspconfig").util.root_pattern("Makefile", ".git", "node_modules"),
--- }
--- or if you need something more advanced
--- lvim.lsp.null_ls.setup.root_dir = function(fname)
---   if vim.bo.filetype == "javascript" then
---     return require("lspconfig/util").root_pattern("Makefile", ".git", "node_modules")(fname)
---       or require("lspconfig/util").path.dirname(fname)
---   elseif vim.bo.filetype == "php" then
---     return require("lspconfig/util").root_pattern("Makefile", ".git", "composer.json")(fname) or vim.fn.getcwd()
---   else
---     return require("lspconfig/util").root_pattern("Makefile", ".git")(fname) or require("lspconfig/util").path.dirname(fname)
---   end
--- end
 
 -- -- set a formatter, this will override the language server formatting capabilities (if it exists)
 -- local formatters = require "lvim.lsp.null-ls.formatters"
 -- formatters.setup {
---   { exe = "black", filetypes = { "python" } },
---   { exe = "isort", filetypes = { "python" } },
+--   { command = "black", filetypes = { "python" } },
+--   { command = "isort", filetypes = { "python" } },
 --   {
---     exe = "prettier",
+--     -- each formatter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
+--     command = "prettier",
 --     ---@usage arguments to pass to the formatter
 --     -- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
---     args = { "--print-with", "100" },
+--     extra_args = { "--print-with", "100" },
 --     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
 --     filetypes = { "typescript", "typescriptreact" },
 --   },
@@ -234,15 +239,16 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- -- set additional linters
 -- local linters = require "lvim.lsp.null-ls.linters"
 -- linters.setup {
---   { exe = "flake8", filetypes = { "python" } },
+--   { command = "flake8", filetypes = { "python" } },
 --   {
---     exe = "shellcheck",
+--     -- each linter accepts a list of options identical to https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#Configuration
+--     command = "shellcheck",
 --     ---@usage arguments to pass to the formatter
 --     -- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
---     args = { "--severity", "warning" },
+--     extra_args = { "--severity", "warning" },
 --   },
 --   {
---     exe = "codespell",
+--     command = "codespell",
 --     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
 --     filetypes = { "javascript", "python" },
 --   },
@@ -258,8 +264,10 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- }
 
 
+
+
 --------------------------------------------------------------------------------
--- Head: My
+-- Head: My / Plugin
 --
 
 lvim.plugins = {
@@ -274,32 +282,62 @@ lvim.plugins = {
 		end
 	},
 	-- ## ColorScheme
-	-- {
-	-- 	'dracula/vim',
-	-- 	as = 'dracula'
-	-- },
-	-- {
-	-- 	'morhetz/gruvbox'
-	-- },
 
-	-- {
-	-- 	'joshdick/onedark.vim'
-	-- },
-	-- {
-	-- 	'liuchengxu/space-vim-theme'
-	-- },
-	-- {
-	-- 	'sickill/vim-monokai'
-	-- }
-	{'lvim-tech/lvim-colorscheme'},
+	-- ## dracula
+	-- https://github.com/dracula/vim
+	--{'dracula/vim', as = 'dracula'},
 
+	-- ## gruvbox
+	-- https://github.com/morhetz/gruvbox
+	--{'morhetz/gruvbox'},
 
-	{'npxbr/gruvbox.nvim', requires = {'rktjmp/lush.nvim'}}
+	-- ## monokai
+	-- https://github.com/sickill/vim-monokai
+	--{'sickill/vim-monokai'},
+
+	-- ## onedark
+	-- https://github.com/joshdick/onedark.vim
+	--{'joshdick/onedark.vim'},
+
+	-- ## space-vim-dark
+	-- https://github.com/liuchengxu/space-vim-dark
+	--{'liuchengxu/space-vim-dark'},
+
+	-- ## space_vim_theme
+	-- https://github.com/liuchengxu/space-vim-theme
+	--{'liuchengxu/space-vim-theme'},
+
+	-- ## lvim
+	-- https://github.com/lvim-tech/lvim-colorscheme
+	--{'lvim-tech/lvim-colorscheme'},
+
+	-- ## sonokai
+	-- https://github.com/sainnhe/sonokai
+	--{'sainnhe/sonokai'},
+
+	-- ## edge
+	-- https://github.com/sainnhe/edge
+	--{'sainnhe/edge'},
+
+	-- ## everforest
+	-- https://github.com/sainnhe/everforest
+	--{'sainnhe/everforest'},
+
+	-- ## gruvbox-material
+	-- https://github.com/sainnhe/gruvbox-material
+	--{'sainnhe/gruvbox-material'},
+
+	-- ## gruvbox
+	-- {'npxbr/gruvbox.nvim', requires = {'rktjmp/lush.nvim'}}
+	-- https://github.com/ellisonleao/gruvbox.nvim
+	{'ellisonleao/gruvbox.nvim'}
 }
 
 --
--- Tail: My
+-- Tail: My / Plugin
 --------------------------------------------------------------------------------
+
+
 
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)

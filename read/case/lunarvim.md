@@ -39,6 +39,8 @@ bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/
 * ~/.local/share/applications/lvim.desktop
 * ~/.config/lvim
 * ~/.local/share/lunarvim
+* ~/.cache/nvim
+
 
 ## 如何移除 LunarVim
 
@@ -57,7 +59,7 @@ bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/
 
 ### 安裝 config.lua
 
-Run
+安裝我的[config.lua](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua)
 
 ``` sh
 curl -fLo "$HOME/.config/lvim/config.lua" --create-dirs \
@@ -81,8 +83,6 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 | `<Backspace>` | [C-w W](https://neovim.io/doc/user/windows.html#CTRL-W_W) | 切換到上一個 Window |
 | `<Tab>` | [C-w w](https://neovim.io/doc/user/windows.html#CTRL-W_w) | 切換到下一個 Window |
 
-
-
 | 按鍵組合 | 對應 | 說明 |
 | --- | --- | --- |
 | `Ctrl + k` | [:bprevious](https://neovim.io/doc/user/windows.html#:bprevious) | 切換到上一個 Buffer |
@@ -90,7 +90,13 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 | `Ctrl + h` | [:tabprevious](https://neovim.io/doc/user/tabpage.html#:tabprevious) | 切換到上一個 TabPage |
 | `Ctrl + l` | [:tabnext](https://neovim.io/doc/user/tabpage.html#:tabnext) | 切換到下一個 TabPage |
 
-> 目前已經註解掉
+> 上面四個快速鍵，已經註解掉，改採用 lunarvim [內建的設定](https://www.lunarvim.org/plugins/02-default-plugins.html#status-and-bufferline)，表格如下
+
+| 按鍵組合 | 對應 | 說明 |
+| --- | --- | --- |
+| `Shift + h` | [:bprevious](https://neovim.io/doc/user/windows.html#:bprevious) | 切換到上一個 Buffer |
+| `Shift + l` | [:bnext](https://neovim.io/doc/user/windows.html#:bnext) | 切換到下一個 Buffer |
+
 
 ### 分割視窗移動邊界(更改大小)
 
