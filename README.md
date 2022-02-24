@@ -13,15 +13,25 @@
 
 * [個人筆記](https://samwhelp.github.io/book/)
 
+
+## Plugin Manager
+
+| Packaer 範例 |
+| --- |
+| [Quick Start](https://github.com/samwhelp/note-about-nvim/tree/gh-pages/_demo/start/plugin_manager/packer/start) |
+
+
 ## Lua
+
 
 ### 實作案例
 
 | 實作案例 |
 | --- |
-| [lvim](https://samwhelp.github.io/note-about-nvim/read/case/lvim-tech.html) ([GitHub](https://github.com/lvim-tech/lvim)) |
 | [LunarVim](https://samwhelp.github.io/note-about-nvim/read/case/lunarvim.html) ([GitHub](https://github.com/ChristianChiarulli/LunarVim)) |
+| [lvim-tech](https://samwhelp.github.io/note-about-nvim/read/case/lvim-tech.html) ([GitHub](https://github.com/lvim-tech/lvim)) |
 | [NvChad](https://samwhelp.github.io/note-about-nvim/read/case/nvchad.html) ([GitHub](https://github.com/NvChad/NvChad)) |
+
 
 ## 相關討論
 
