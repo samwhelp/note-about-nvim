@@ -1,5 +1,5 @@
 ---
-title:AstroVim
+title: AstroVim
 nav_order: 7060
 has_children: false
 parent: 實作案例

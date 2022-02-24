@@ -1,5 +1,5 @@
 ---
-title:VapourNvim
+title: VapourNvim
 nav_order: 7040
 has_children: false
 parent: 實作案例
