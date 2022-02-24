@@ -114,8 +114,8 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 
 | 分類 |
 | --- |
-| [開啟 Terminal](#開啟 Terminal) |
-| [開啟 File Explorer](#開啟 File Explorer) |
+| [開啟 Terminal](#開啟-Terminal) |
+| [開啟 File Explorer](#開啟-File-Explorer) |
 | [快速切換](#快速切換) |
 | [分割視窗移動邊界(更改大小)](#分割視窗移動邊界(更改大小)) |
 | [移動單行](#移動單行) |
