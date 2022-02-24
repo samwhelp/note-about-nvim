@@ -9,10 +9,10 @@ has_children: true
 
 | 案例 |
 | --- |
-| [LunarVim](lunarvim) |
-| [lvim-tech](lvim-tech) |
-| [NvChad](nvchad) |
-| [VapourNvim](vapour-nvim) |
-| [nv-ide](nv-ide) |
-| [AstroVim](astro-vim) |
-| [CosmicNvim](cosmic-nvim) |
+| [LunarVim](case/lunarvim) |
+| [lvim-tech](case/lvim-tech) |
+| [NvChad](case/nvchad) |
+| [VapourNvim](case/vapour-nvim) |
+| [nv-ide](case/nv-ide) |
+| [AstroVim](case/astro-vim) |
+| [CosmicNvim](case/cosmic-nvim) |
