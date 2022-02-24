@@ -66,6 +66,40 @@ curl -fLo "$HOME/.config/lvim/config.lua" --create-dirs \
 	'https://raw.githubusercontent.com/samwhelp/note-about-nvim/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua'
 ```
 
+## ~/.local/bin/lvim
+
+執行
+
+``` sh
+cat ~/.local/bin/lvim
+```
+
+顯示
+
+```
+#!/bin/sh
+
+export LUNARVIM_RUNTIME_DIR="${LUNARVIM_RUNTIME_DIR:-"$HOME/.local/share/lunarvim"}"
+export LUNARVIM_CONFIG_DIR="${LUNARVIM_CONFIG_DIR:-"$HOME/.config/lvim"}"
+export LUNARVIM_CACHE_DIR="${LUNARVIM_CACHE_DIR:-"$HOME/.cache/nvim"}"
+
+exec nvim -u "$LUNARVIM_RUNTIME_DIR/lvim/init.lua" "$@"
+```
+
+## 小技巧
+
+將「~/.local/bin/vi」連結到「~/.local/bin/lvim」
+
+``` sh
+cd ~/.local/bin/
+ln -sf lvim vi
+```
+
+這樣在下指令的時候，執行「vi」，就等同執行「lvim」。
+
+
+
+
 
 ## Keybind
 
