@@ -24,7 +24,7 @@ parent: 實作案例
 基本上執行下面的指令，clone到「~/.config/nvim」這個資料夾
 
 ``` sh
-git clone https://github.com/lvim-tech/lvim.git ~/.config/nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 ```
 
 然後執行
@@ -33,7 +33,7 @@ git clone https://github.com/lvim-tech/lvim.git ~/.config/nvim
 nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
 ```
 
-就會[自動安裝](https://github.com/lvim-tech/lvim/blob/production/lua/core/pack.lua#L92)「[packer.nvim](https://github.com/wbthomason/packer.nvim)」，
+就會[自動安裝](https://github.com/NvChad/NvChad/blob/main/lua/plugins/packerInit.lua#L6)「[packer.nvim](https://github.com/wbthomason/packer.nvim)」，
 
 會安裝到「~/.local/share/nvim/site/pack/packer/opt/packer.nvim」這個路徑，
 
