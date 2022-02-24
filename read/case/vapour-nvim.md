@@ -1,12 +1,12 @@
 ---
-title:AstroVim
-nav_order: 7060
+title:VapourNvim
+nav_order: 7040
 has_children: false
 parent: 實作案例
 ---
 
 
-# AstroVim
+# VapourNvim
 
 
 ## Subject
@@ -18,14 +18,14 @@ parent: 實作案例
 
 ## Link
 
-* [AstroVim](https://github.com/kabinspace/AstroVim)
+* [VapourNvim](https://github.com/VapourNvim/VapourNvim)
 
 ## Install
 
 基本上執行下面的指令，clone到「~/.config/nvim」這個資料夾
 
 ``` sh
-git clone https://github.com/kabinspace/AstroVim.git ~/.config/nvim
+git clone https://github.com/VapourNvim/VapourNvim.git ~/.config/nvim
 ```
 
 然後執行
@@ -34,7 +34,7 @@ git clone https://github.com/kabinspace/AstroVim.git ~/.config/nvim
 nvim +PackerSync
 ```
 
-就會[自動安裝](https://github.com/kabinspace/AstroVim/blob/main/lua/core/utils.lua#L18)「[packer.nvim](https://github.com/wbthomason/packer.nvim)」，
+就會[自動安裝](https://github.com/VapourNvim/VapourNvim/blob/main/lua/vapour/plugins/init.lua#L4)「[packer.nvim](https://github.com/wbthomason/packer.nvim)」，
 
 會安裝到「~/.local/share/nvim/site/pack/packer/start/packer.nvim」這個路徑，
 
@@ -61,4 +61,4 @@ rm -rf ~/.local/share/nvim
 
 ## Keybind
 
-* [https://github.com/kabinspace/AstroVim/blob/main/lua/core/mappings.lua](https://github.com/kabinspace/AstroVim/blob/main/lua/core/mappings.lua)
+* [https://github.com/VapourNvim/VapourNvim/blob/main/lua/vapour/keybindings/init.lua](https://github.com/VapourNvim/VapourNvim/blob/main/lua/vapour/keybindings/init.lua)

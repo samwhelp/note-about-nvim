@@ -1,6 +1,6 @@
 ---
 title: nv-ide
-nav_order: 7040
+nav_order: 7050
 has_children: false
 parent: 實作案例
 ---

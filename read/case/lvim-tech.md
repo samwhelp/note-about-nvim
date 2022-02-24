@@ -1,11 +1,11 @@
 ---
-title: lvim
+title: lvim-tech
 nav_order: 7020
 has_children: false
 parent: 實作案例
 ---
 
-# lvim
+# lvim-tech
 
 ## Subject
 
