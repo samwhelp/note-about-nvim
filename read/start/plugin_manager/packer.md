@@ -1,7 +1,7 @@
 ---
 title: packer.vim
 nav_order: 1011
-has_children: true
+has_children: false
 parent: Plugin Manager
 grand_parent: 入門
 ---
