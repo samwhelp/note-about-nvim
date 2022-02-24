@@ -16,7 +16,7 @@ parent: 實作案例
 
 ## Link
 
-* https://github.com/lvim-tech/lvim
+* [lvim-tech/lvim](https://github.com/lvim-tech/lvim)
 
 
 ## Install
