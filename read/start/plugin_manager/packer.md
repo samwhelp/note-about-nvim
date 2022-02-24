@@ -13,7 +13,7 @@ grand_parent: 入門
 
 | Demo |
 | --- |
-| [Quick Start](https://github.com/samwhelp/note-about-nvim/tree/gh-pages/_demo/plugin_manager/packer/start) |
+| [Quick Start](https://github.com/samwhelp/note-about-nvim/tree/gh-pages/_demo/start/plugin_manager/packer/start) |
 
 ## Link
 
