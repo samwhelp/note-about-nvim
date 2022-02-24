@@ -99,6 +99,34 @@ ln -sf lvim vi
 這樣在下指令的時候，執行「vi」，就等同執行「lvim」。
 
 
+## ColorScheme
+
+關於「ColorScheme」，我改採用「[https://github.com/ellisonleao/gruvbox.nvim](ellisonleao/gruvbox.nvim)」
+
+請參考我的「[config.lua](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua)」
+
+有兩個地方，
+
+1. [納入Plugin Manager](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua#L333)的程式片段如下
+
+
+``` lua
+lvim.plugins = {
+
+	-- ## gruvbox
+	-- {'npxbr/gruvbox.nvim', requires = {'rktjmp/lush.nvim'}}
+	-- https://github.com/ellisonleao/gruvbox.nvim
+	{'ellisonleao/gruvbox.nvim'}
+}
+```
+
+
+2. [設定採用](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua#L87)的程式片段如下
+
+``` lua
+lvim.colorscheme = "gruvbox"
+```
+
 
 
 
@@ -107,7 +135,7 @@ ln -sf lvim vi
 * LunarVim Docs / [#
 Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 
-* 設定的「leader」是「[空白鍵](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua#L58)」，主要功能，以「`空白鍵`」開頭。
+* 設定的「leader」是「[空白鍵](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua#L96)」，主要功能，以「`空白鍵`」開頭。
 * 因為有「[which-key.nvim](https://github.com/folke/which-key.nvim)」，所以按下「`空白鍵`」，會有「[功能提示](https://www.lunarvim.org/plugins/02-default-plugins.html#keybindings)」。
 * `Ctrl + w` 是原本 nvim 就有的 分割視窗操作
 * 我加了一些功能在 `\` 開頭的組合鍵
