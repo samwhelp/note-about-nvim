@@ -1,11 +1,11 @@
 ---
-title: NvChad
-nav_order: 7030
+title: nv-ide
+nav_order: 7040
 has_children: false
 parent: 實作案例
 ---
 
-# NvChad
+# nv-ide
 
 ## Subject
 
@@ -16,15 +16,14 @@ parent: 實作案例
 
 ## Link
 
-* [NvChad](https://github.com/NvChad/NvChad)
-* [https://nvchad.github.io/getting-started/setup](https://nvchad.github.io/getting-started/setup)
+* [nv-ide](https://github.com/crivotz/nv-ide)
 
 ## Install
 
 基本上執行下面的指令，clone到「~/.config/nvim」這個資料夾
 
 ``` sh
-git clone https://github.com/lvim-tech/lvim.git ~/.config/nvim
+git clone https://github.com/crivotz/nv-ide.git ~/.config/nvim
 ```
 
 然後執行
@@ -33,11 +32,12 @@ git clone https://github.com/lvim-tech/lvim.git ~/.config/nvim
 nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
 ```
 
-就會[自動安裝](https://github.com/lvim-tech/lvim/blob/production/lua/core/pack.lua#L92)「[packer.nvim](https://github.com/wbthomason/packer.nvim)」，
+就會[自動安裝](https://github.com/crivotz/nv-ide/blob/master/lua/plugins.lua#L8)「[packer.nvim](https://github.com/wbthomason/packer.nvim)」，
 
-會安裝到「~/.local/share/nvim/site/pack/packer/opt/packer.nvim」這個路徑，
+會安裝到「~/.local/share/nvim/site/pack/packer/start/packer.nvim」這個路徑，
 
 並且安裝預定好的「Plugin」。
+
 
 ## Path
 
@@ -59,4 +59,4 @@ rm -rf ~/.local/share/nvim
 
 ## Keybind
 
-請參考「NvChad / [Default mappings](https://nvchad.github.io/config/Default%20mappings)」的表格。
+* [https://github.com/crivotz/nv-ide/blob/master/lua/settings/keymap.lua](https://github.com/crivotz/nv-ide/blob/master/lua/settings/keymap.lua)

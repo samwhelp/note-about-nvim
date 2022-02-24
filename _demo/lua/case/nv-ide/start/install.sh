@@ -12,4 +12,4 @@ if [ -a ~/.config/nvim ]; then
 	exit 0
 fi
 
-cp ./config/nvim ~/.config/nvim -a
+git clone https://github.com/crivotz/nv-ide ~/.config/nvim
