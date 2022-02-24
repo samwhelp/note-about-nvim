@@ -35,11 +35,12 @@ bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/
 
 ### Path
 
-* ~/.local/bin/lvim
 * ~/.local/share/applications/lvim.desktop
+* ~/.local/bin/lvim
 * ~/.config/lvim
 * ~/.local/share/lunarvim
 * ~/.cache/nvim
+* ~/.local/share/nvim
 
 
 ## 如何移除 LunarVim
@@ -66,7 +67,7 @@ curl -fLo "$HOME/.config/lvim/config.lua" --create-dirs \
 	'https://raw.githubusercontent.com/samwhelp/note-about-nvim/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua'
 ```
 
-## ~/.local/bin/lvim
+## 關於 ~/.local/bin/lvim
 
 執行
 
