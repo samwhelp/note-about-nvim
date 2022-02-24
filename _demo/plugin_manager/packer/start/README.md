@@ -7,16 +7,17 @@
 
 * [https://github.com/wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
 
+
 ## Dir Path
 
-* ~/.config/nvim
+* [~/.config/nvim](./config/nvim)
 * ~/.cache/nvim
 * ~/.local/share/nvim
 
 
 ## File Path
 
-* ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+* [~/.local/share/nvim/site/pack/packer/start/packer.nvim](https://github.com/wbthomason/packer.nvim)
 * ~/.config/nvim/plugin/packer_compiled.lua
 
 
