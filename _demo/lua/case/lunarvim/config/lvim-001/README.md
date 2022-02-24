@@ -1,7 +1,9 @@
 
-# lv-config.lua
+# Demo lvim config
 
-## Install
+## lv-config.lua
+
+### Install
 
 Run
 
