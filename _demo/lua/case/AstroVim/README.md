@@ -1,11 +1,11 @@
 
 
-# nv-ide
+# AstroVim
 
 
 ## Link
 
-* [nv-ide](https://github.com/crivotz/nv-ide)
+* [AstroVim](https://github.com/kabinspace/AstroVim)
 
 
 ## Demo

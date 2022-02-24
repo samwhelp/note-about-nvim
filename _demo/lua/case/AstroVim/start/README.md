@@ -1,11 +1,11 @@
 
 
-# nv-ide
+# AstroVim
 
 
 ## Link
 
-* [nv-ide](https://github.com/crivotz/nv-ide)
+* [AstroVim](https://github.com/kabinspace/AstroVim)
 
 
 ## Install
@@ -13,7 +13,7 @@
 run (Script: [install.sh](install.sh))
 
 ``` sh
-git clone https://github.com/crivotz/nv-ide.git ~/.config/nvim
+git clone https://github.com/kabinspace/AstroVim.git ~/.config/nvim
 ```
 
 
