@@ -72,18 +72,43 @@ curl -fLo "$HOME/.config/lvim/config.lua" --create-dirs \
 * LunarVim Docs / [#
 Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 
-* 設定的「leader」是「[空白鍵](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua#L58)」
+* 設定的「leader」是「[空白鍵](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua#L58)」，主要功能，以「`空白鍵`」開頭。
+* 因為有「[which-key.nvim](https://github.com/folke/which-key.nvim)」，所以按下「`空白鍵`」，會有「[功能提示](https://www.lunarvim.org/plugins/02-default-plugins.html#keybindings)」。
 * `Ctrl + w` 是原本 nvim 就有的 分割視窗操作
 * 我加了一些功能在 `\` 開頭的組合鍵
 
+| 分類 |
+| --- |
+| [開啟 Terminal](#開啟 Terminal) |
+| [開啟 File Explorer](#開啟 File Explorer) |
+| [快速切換](#快速切換) |
+| [分割視窗移動邊界(更改大小)](#分割視窗移動邊界(更改大小)) |
+| [移動單行](#移動單行) |
+| [切換顯示特別字元](#切換顯示特別字元) |
+| [複製選取文字到剪貼簿](#複製選取文字到剪貼簿) |
+
+
+### 開啟 Terminal
+
+| 按鍵組合 (LunarVim預設) | 對應 | 說明 |
+| --- | --- | --- |
+| `Ctrl + t` | --- | 開啟 [Terminal](https://www.lunarvim.org/plugins/02-default-plugins.html#terminal) |
+
+### 開啟 File Explorer
+
+| 按鍵組合 (LunarVim預設) | 對應 | 說明 |
+| --- | --- | --- |
+| `Space + e` | --- | 開啟 [File Explorer](https://www.lunarvim.org/plugins/02-default-plugins.html#file-explorer) |
+
 ### 快速切換
 
-| 按鍵組合 | 對應 | 說明 |
+| 按鍵組合 (我的設定) | 對應 | 說明 |
 | --- | --- | --- |
 | `<Backspace>` | [C-w W](https://neovim.io/doc/user/windows.html#CTRL-W_W) | 切換到上一個 Window |
 | `<Tab>` | [C-w w](https://neovim.io/doc/user/windows.html#CTRL-W_w) | 切換到下一個 Window |
 
-| 按鍵組合 | 對應 | 說明 |
+
+| 按鍵組合 (我的設定) (已註解) | 對應 | 說明 |
 | --- | --- | --- |
 | `Ctrl + k` | [:bprevious](https://neovim.io/doc/user/windows.html#:bprevious) | 切換到上一個 Buffer |
 | `Ctrl + j` | [:bnext](https://neovim.io/doc/user/windows.html#:bnext) | 切換到下一個 Buffer |
@@ -92,15 +117,22 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 
 > 上面四個快速鍵，已經註解掉，改採用 lunarvim [內建的設定](https://www.lunarvim.org/plugins/02-default-plugins.html#status-and-bufferline)，表格如下
 
-| 按鍵組合 | 對應 | 說明 |
+
+| 按鍵組合 (LunarVim預設) | 對應 | 說明 |
 | --- | --- | --- |
 | `Shift + h` | [:bprevious](https://neovim.io/doc/user/windows.html#:bprevious) | 切換到上一個 Buffer |
 | `Shift + l` | [:bnext](https://neovim.io/doc/user/windows.html#:bnext) | 切換到下一個 Buffer |
 
 
+| 按鍵組合 (我的設定) | 對應 | 說明 |
+| --- | --- | --- |
+| `Shift + Home` | [:tabprevious](https://neovim.io/doc/user/tabpage.html#:tabprevious) | 切換到上一個 TabPage |
+| `Ctrl + End` | [:tabnext](https://neovim.io/doc/user/tabpage.html#:tabnext) | 切換到下一個 TabPage |
+
+
 ### 分割視窗移動邊界(更改大小)
 
-| 按鍵組合 | 對應 |
+| 按鍵組合 (我的設定) | 對應 |
 | --- | --- |
 | `Shift + Down` | [&lt;C-w&gt;-](https://neovim.io/doc/user/windows.html#CTRL-W_-) |
 | `Shift + Up` | [&lt;C-w&gt;+](https://neovim.io/doc/user/windows.html#CTRL-W_+) |
@@ -110,7 +142,7 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 
 ### 移動單行
 
-| 按鍵組合 | 對應 | 說明 | 注意事項 |
+| 按鍵組合 (我的設定) | 對應 | 說明 | 注意事項 |
 | --- | --- | --- | --- |
 | `Shift + PageUp` | [:m-2](https://neovim.io/doc/user/change.html#:m)&lt;CR&gt; | Move line up. | Work on Normal Mode and Insert Mode |
 | `Shift + PageDown` | [:m+](https://neovim.io/doc/user/change.html#:m)&lt;CR&gt; | Move line Down. | Work on Normal Mode and Insert Mode |
@@ -118,14 +150,14 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 
 ### 切換顯示特別字元
 
-| 按鍵組合 | 對應 | 說明 |
+| 按鍵組合 (我的設定) | 對應 | 說明 |
 | --- | --- | --- |
 | `\ + a` | [`:set list!<CR>`](https://neovim.io/doc/user/options.html#'list') | 切換顯示特別字元 |
 
 
 ### 複製選取文字到剪貼簿
 
-| 按鍵組合 | 對應 | 說明 |
+| 按鍵組合 (我的設定) | 對應 | 說明 |
 | --- | --- | --- |
 | `Shift + Tab` | [`"+y`](https://vimhelp.org/gui_x11.txt.html#quoteplus) | 複製選取文字到剪貼簿 |
 
