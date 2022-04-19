@@ -209,7 +209,7 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 | 按鍵組合 (我的設定) | 對應 | 說明 |
 | --- | --- | --- |
 | `Shift + Home` | [:tabprevious](https://neovim.io/doc/user/tabpage.html#:tabprevious) | 切換到上一個 TabPage |
-| `Ctrl + End` | [:tabnext](https://neovim.io/doc/user/tabpage.html#:tabnext) | 切換到下一個 TabPage |
+| `Shift + End` | [:tabnext](https://neovim.io/doc/user/tabpage.html#:tabnext) | 切換到下一個 TabPage |
 
 
 ### 分割視窗移動邊界(更改大小)
