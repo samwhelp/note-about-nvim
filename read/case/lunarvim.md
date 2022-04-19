@@ -67,16 +67,20 @@ rm -rf ~/.local/share/nvim
 
 ## config.lua
 
+> 關於「LunarVim」的「個人設定檔」，路徑如下
+
 * [~/.config/lvim/config.lua](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua)
 
-## config.lua / example
+
+## config.lua / 官方範例
 
 * [https://github.com/ChristianChiarulli/lvim/blob/master/config.lua](https://github.com/ChristianChiarulli/lvim/blob/master/config.lua)
 * [https://github.com/LunarVim/LunarVim/blob/rolling/utils/installer/config.example.lua](https://github.com/LunarVim/LunarVim/blob/rolling/utils/installer/config.example.lua)
 
-### 安裝 config.lua
 
-安裝我的[config.lua](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua)
+### 如何安裝我的 config.lua
+
+執行下面指令，安裝我的[~/.config/lvim/config.lua](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua)
 
 ``` sh
 curl -fLo "$HOME/.config/lvim/config.lua" --create-dirs \
