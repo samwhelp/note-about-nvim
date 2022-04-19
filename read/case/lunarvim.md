@@ -178,22 +178,26 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 | --- | --- | --- |
 | `Space + e` | --- | 開啟 [File Explorer](https://www.lunarvim.org/plugins/02-default-plugins.html#file-explorer) |
 
+
 ### 快速切換
+
+> 我原本有一組慣用的「[快速切換](https://samwhelp.github.io/note-about-vim/read/adjustment/keybind/quick-switch/#%E8%A1%A8%E6%A0%BC%E8%AA%AA%E6%98%8E)」按鍵綁定。
+
+> 根據「LunarVim」的特性，我換了另外一組「[快速切換](https://samwhelp.github.io/note-about-vim/read/adjustment/keybind/quick-switch/v2.html)」按鍵綁定。
+
 
 | 按鍵組合 (我的設定) | 對應 | 說明 |
 | --- | --- | --- |
-| `<Backspace>` | [C-w W](https://neovim.io/doc/user/windows.html#CTRL-W_W) | 切換到上一個 Window |
-| `<Tab>` | [C-w w](https://neovim.io/doc/user/windows.html#CTRL-W_w) | 切換到下一個 Window |
+| `<Backspace>` | [&ltC-w&gt;W](https://neovim.io/doc/user/windows.html#CTRL-W_W) | 切換到上一個 Window |
+| `<Tab>` | [&ltC-w&gt;w](https://neovim.io/doc/user/windows.html#CTRL-W_w) | 切換到下一個 Window |
 
 
-| 按鍵組合 (我的設定) (已註解) | 對應 | 說明 |
+| 按鍵組合 (LunarVim預設) | 對應 | 說明 |
 | --- | --- | --- |
-| `Ctrl + k` | [:bprevious](https://neovim.io/doc/user/windows.html#:bprevious) | 切換到上一個 Buffer |
-| `Ctrl + j` | [:bnext](https://neovim.io/doc/user/windows.html#:bnext) | 切換到下一個 Buffer |
-| `Ctrl + h` | [:tabprevious](https://neovim.io/doc/user/tabpage.html#:tabprevious) | 切換到上一個 TabPage |
-| `Ctrl + l` | [:tabnext](https://neovim.io/doc/user/tabpage.html#:tabnext) | 切換到下一個 TabPage |
-
-> 上面四個快速鍵，已經註解掉，改採用 lunarvim [內建的設定](https://www.lunarvim.org/plugins/02-default-plugins.html#status-and-bufferline)，表格如下
+| `Ctrl + k` | [&lt;C-w&gt;k](https://vimhelp.org/windows.txt.html#CTRL-W_k) | 切換到上方 Window |
+| `Ctrl + j` | [&lt;C-w&gt;j](https://vimhelp.org/windows.txt.html#CTRL-W_j) | 切換到下方 Window |
+| `Ctrl + h` | [&lt;C-w&gt;h](https://vimhelp.org/windows.txt.html#CTRL-W_h) | 切換到左方 Window |
+| `Ctrl + l` | [&lt;C-w&gt;l](https://vimhelp.org/windows.txt.html#CTRL-W_l) | 切換到右方 Window |
 
 
 | 按鍵組合 (LunarVim預設) | 對應 | 說明 |
