@@ -125,6 +125,8 @@ ln -sf lvim vi
 
 如何設定，請參考我的「[config.lua](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua)」。
 
+以及「[官方說明](https://www.lunarvim.org/configuration/03-colorschemes.html#switching-colors)」。
+
 有兩個地方需要設定，
 
 1. [納入Plugin Manager](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua#L333)的程式片段如下
