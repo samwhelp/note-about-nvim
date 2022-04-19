@@ -188,8 +188,8 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 
 | 按鍵組合 (我的設定) | 對應 | 說明 |
 | --- | --- | --- |
-| `<Backspace>` | [&ltC-w&gt;W](https://neovim.io/doc/user/windows.html#CTRL-W_W) | 切換到上一個 Window |
-| `<Tab>` | [&ltC-w&gt;w](https://neovim.io/doc/user/windows.html#CTRL-W_w) | 切換到下一個 Window |
+| `<Backspace>` | [&lt;C-w&gt;W](https://neovim.io/doc/user/windows.html#CTRL-W_W) | 切換到上一個 Window |
+| `<Tab>` | [&lt;C-w&gt;w](https://neovim.io/doc/user/windows.html#CTRL-W_w) | 切換到下一個 Window |
 
 
 | 按鍵組合 (LunarVim預設) | 對應 | 說明 |
