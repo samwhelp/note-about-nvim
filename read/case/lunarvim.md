@@ -55,7 +55,7 @@ bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/
 
 基本上只要移除上面的相關「檔案」和「資料夾就行了」。
 
-```
+``` sh
 rm -f ~/.local/share/applications/lvim.desktop
 rm -f ~/.local/bin/lvim
 
@@ -150,11 +150,10 @@ lvim.colorscheme = "gruvbox"
 
 * LunarVim Docs / [#
 Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
-
-* 設定的「leader」是「[空白鍵](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua#L96)」，主要功能，以「`空白鍵`」開頭。
+* LunarVim 設定的「leader」是「[空白鍵](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua#L96)」，所以主要功能是以「`空白鍵`」為開頭。
 * 因為有「[which-key.nvim](https://github.com/folke/which-key.nvim)」，所以按下「`空白鍵`」，會有「[功能提示](https://www.lunarvim.org/plugins/02-default-plugins.html#keybindings)」。
-* `Ctrl + w` 是原本 nvim 就有的 分割視窗操作
-* 我加了一些功能在 `\` 開頭的組合鍵
+* 而「`Ctrl + w`」是原本「nvim」就有的「分割視窗操作」。
+* 我有加了一些功能，以「`\`」開頭的組合鍵。
 
 | 分類 |
 | --- |
