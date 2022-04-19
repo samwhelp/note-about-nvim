@@ -7,7 +7,7 @@ parent: 實作案例
 
 # LunarVim
 
-## Link
+## 相關連結
 
 * [LunarVim](https://github.com/LunarVim/LunarVim)
 * [lvim](https://github.com/ChristianChiarulli/lvim)
@@ -33,10 +33,15 @@ parent: 實作案例
 bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 ```
 
-### Path
+## 相關路徑
+
+### 檔案
 
 * ~/.local/share/applications/lvim.desktop
 * ~/.local/bin/lvim
+
+### 資料夾
+
 * ~/.config/lvim
 * ~/.local/share/lunarvim
 * ~/.cache/nvim
@@ -48,6 +53,17 @@ bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/
 * LunarVim Docs / [Uninstall](https://www.lunarvim.org/01-installing.html#uninstall)
 * [uninstall.sh](https://github.com/LunarVim/LunarVim/blob/rolling/utils/installer/uninstall.sh)
 
+基本上只要移除上面的相關「檔案」和「資料夾就行了」。
+
+```
+rm -f ~/.local/share/applications/lvim.desktop
+rm -f ~/.local/bin/lvim
+
+rm -rf ~/.config/lvim
+rm -rf ~/.local/share/lunarvim
+rm -rf ~/.cache/nvim
+rm -rf ~/.local/share/nvim
+```
 
 ## config.lua
 
@@ -101,7 +117,7 @@ ln -sf lvim vi
 
 ## ColorScheme
 
-關於「ColorScheme」，我改採用「[https://github.com/ellisonleao/gruvbox.nvim](ellisonleao/gruvbox.nvim)」
+關於「ColorScheme」，我改採用「[ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim」
 
 請參考我的「[config.lua](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua)」
 
@@ -142,8 +158,8 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 
 | 分類 |
 | --- |
-| [開啟 Terminal](#開啟-Terminal) |
-| [開啟 File Explorer](#開啟-File-Explorer) |
+| [開啟 Terminal](#開啟-terminal) |
+| [開啟 File Explorer](#開啟-file-explorer) |
 | [快速切換](#快速切換) |
 | [分割視窗移動邊界(更改大小)](#分割視窗移動邊界(更改大小)) |
 | [移動單行](#移動單行) |
