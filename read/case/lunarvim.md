@@ -183,7 +183,7 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 
 > 我原本有一組慣用的「[快速切換](https://samwhelp.github.io/note-about-vim/read/adjustment/keybind/quick-switch/#%E8%A1%A8%E6%A0%BC%E8%AA%AA%E6%98%8E)」按鍵綁定。
 
-> 根據「LunarVim」的特性，我換了另外一組「[快速切換](https://samwhelp.github.io/note-about-vim/read/adjustment/keybind/quick-switch/v2.html)」按鍵綁定。
+> 根據「LunarVim」的特性，我換了另外一組「[快速切換](https://samwhelp.github.io/note-about-vim/read/adjustment/keybind/quick-switch/v2.html#%E8%A1%A8%E6%A0%BC%E8%AA%AA%E6%98%8E)」按鍵綁定。
 
 
 | 按鍵組合 (我的設定) | 對應 | 說明 |
