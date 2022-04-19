@@ -117,11 +117,11 @@ ln -sf lvim vi
 
 ## ColorScheme
 
-關於「ColorScheme」，我改採用「[ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim」
+關於「ColorScheme」，我改採用「[ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim)」。
 
-請參考我的「[config.lua](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua)」
+如何設定，請參考我的「[config.lua](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua)」。
 
-有兩個地方，
+有兩個地方需要設定，
 
 1. [納入Plugin Manager](https://github.com/samwhelp/note-about-nvim/blob/gh-pages/_demo/lua/case/lunarvim/config/lvim/config.lua#L333)的程式片段如下
 
