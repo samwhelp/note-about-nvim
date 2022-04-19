@@ -194,10 +194,10 @@ Default Plugins](https://www.lunarvim.org/plugins/02-default-plugins.html)
 
 | 按鍵組合 (LunarVim預設) | 對應 | 說明 |
 | --- | --- | --- |
-| `Ctrl + k` | [&lt;C-w&gt;k](https://vimhelp.org/windows.txt.html#CTRL-W_k) | 切換到上方 Window |
-| `Ctrl + j` | [&lt;C-w&gt;j](https://vimhelp.org/windows.txt.html#CTRL-W_j) | 切換到下方 Window |
-| `Ctrl + h` | [&lt;C-w&gt;h](https://vimhelp.org/windows.txt.html#CTRL-W_h) | 切換到左方 Window |
-| `Ctrl + l` | [&lt;C-w&gt;l](https://vimhelp.org/windows.txt.html#CTRL-W_l) | 切換到右方 Window |
+| `Ctrl + k` | [&lt;C-w&gt;k](https://neovim.io/doc/user/windows.html#CTRL-W_k) | 切換到上方 Window |
+| `Ctrl + j` | [&lt;C-w&gt;j](https://neovim.io/doc/user/windows.html#CTRL-W_j) | 切換到下方 Window |
+| `Ctrl + h` | [&lt;C-w&gt;h](https://neovim.io/doc/user/windows.html#CTRL-W_h) | 切換到左方 Window |
+| `Ctrl + l` | [&lt;C-w&gt;l](https://neovim.io/doc/user/windows.html#CTRL-W_l) | 切換到右方 Window |
 
 
 | 按鍵組合 (LunarVim預設) | 對應 | 說明 |
