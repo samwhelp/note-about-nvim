@@ -8,7 +8,7 @@ an executable
 ]]
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 
-
+-- https://github.com/LunarVim/LunarVim/blob/rolling/utils/installer/config.example.lua
 
 
 --------------------------------------------------------------------------------
@@ -172,7 +172,9 @@ lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 
 -- TODO: User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
-lvim.builtin.dashboard.active = true
+--lvim.builtin.dashboard.active = true -- deprecated
+lvim.builtin.alpha.active = true
+lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.notify.active = true
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
@@ -180,18 +182,18 @@ lvim.builtin.nvimtree.show_icons.git = 0
 
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
-  "bash",
-  "c",
-  "javascript",
-  "json",
-  "lua",
-  "python",
-  "typescript",
-  "tsx",
-  "css",
-  "rust",
-  "java",
-  "yaml",
+	"bash",
+	"c",
+	"javascript",
+	"json",
+	"lua",
+	"python",
+	"typescript",
+	"tsx",
+	"css",
+	"rust",
+	"java",
+	"yaml",
 }
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
@@ -275,10 +277,10 @@ lvim.plugins = {
 	{
 		"ntpeters/vim-better-whitespace",
 		config = function()
---			vim.g.better_whitespace_enabled=1
---			vim.g.strip_whitespace_on_save=1
---			vim.g.strip_whitespace_confirm=0
---			vim.g.better_whitespace_ctermcolor=132
+			--			vim.g.better_whitespace_enabled=1
+			--			vim.g.strip_whitespace_on_save=1
+			--			vim.g.strip_whitespace_confirm=0
+			--			vim.g.better_whitespace_ctermcolor=132
 		end
 	},
 	-- ## ColorScheme
@@ -330,7 +332,7 @@ lvim.plugins = {
 	-- ## gruvbox
 	-- {'npxbr/gruvbox.nvim', requires = {'rktjmp/lush.nvim'}}
 	-- https://github.com/ellisonleao/gruvbox.nvim
-	{'ellisonleao/gruvbox.nvim'}
+	{ 'ellisonleao/gruvbox.nvim' }
 }
 
 --

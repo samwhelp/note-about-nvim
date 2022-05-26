@@ -23,8 +23,9 @@ parent: 實作案例
 
 ## 如何安裝 LunarVim
 
-> 注意 Neovim 版本要 (0.5 以上)
+> 注意 Neovim 版本要 (0.7 以上)
 
+* [Ubuntu 安裝](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/nvim.html)
 * LunarVim / [Install In One Command!](https://github.com/LunarVim/LunarVim#install-in-one-command)
 * LunarVim Docs / [Installation](https://www.lunarvim.org/01-installing.html#stable)
 * [install.sh](https://github.com/LunarVim/LunarVim/blob/rolling/utils/installer/install.sh#L84)
@@ -32,6 +33,8 @@ parent: 實作案例
 ``` sh
 bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 ```
+
+
 
 ## 相關路徑
 
