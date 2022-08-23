@@ -1,5 +1,5 @@
 
-# Demo lvim config
+# lvim config / my
 
 ## config.lua
 
