@@ -6,7 +6,7 @@ parent: 實作案例
 ---
 
 
-# AstroVim
+# CosmicNvim
 
 
 ## Subject
